@@ -1,0 +1,10 @@
+parameters:
+  bartender.favourite: Duvel
+
+services:
+  bartender:
+    class: Legovaer\SDIE\BarTender
+    arguments: ['%bartender.favourite%']
+  barclient:
+    class: Legovaer\SDIE\BarClient
+    arguments: ['@bartender']

@@ -1,0 +1,21 @@
+{
+    "name": "legovaer/di-example",
+    "description": "An example to demonstrate how Dependency Injection works",
+    "type": "project",
+    "require": {
+        "symfony/dependency-injection": "^3.1",
+        "symfony/yaml": "^3.1",
+        "symfony/config": "^3.1"
+    },
+    "license": "GNU-2+",
+    "authors": [
+        {
+            "name": "Levi Govaerts",
+            "email": "legovaer@me.com"
+        }
+    ],
+    "autoload": {
+      "psr-4": {"Legovaer\\SDIE\\": "src"}
+    },
+    "minimum-stability": "dev"
+}
